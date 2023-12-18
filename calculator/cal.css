@@ -1,0 +1,32 @@
+body{
+    background-image: url(bg10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 200px;
+    width: 250px;
+  }
+  
+  input {
+    grid-column: 1 / span 4;
+    height: 30px;
+    text-align: right;
+  }
+  
+  button {
+    height: 40px;
+    font-size: 20px;
+  }
+  
+  .operator, .number {
+    background-color: #f0f0f0;
+  }
+  
+  .equal, .clear {
+    background-color: #ff9800;
+  }
+  
